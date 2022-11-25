@@ -1,8 +1,11 @@
 {
   "name": "component-package-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {},
+  "publishConfig": {
+    "@<anasrezamindtree>:registry": "https://npm.pkg.github.com"
+ },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.2",
