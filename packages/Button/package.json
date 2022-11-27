@@ -1,11 +1,14 @@
 {
-  "name": "button",
+  "name": "@anasrezamindtree/button",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel index.js --out-dir dist"
   },
+  "publishConfig": {
+    "@anasrezamindtree:registry": "https://npm.pkg.github.com"
+ },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.2",
